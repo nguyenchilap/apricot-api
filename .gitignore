@@ -3,10 +3,6 @@ package-lock.json
 
 node_modules/
 
-src/pre-start
-src/pre-start/env/
-
-
 
 # Local Netlify folder
 .netlify

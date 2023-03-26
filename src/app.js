@@ -50,4 +50,8 @@ app.use(cors(corsOption));
  **********************************************************************************/
 app.use('/api', baseRouter);
 
+app.get("/", (req, res) => {
+  res.send('SERVER ON')
+})
+
 export default app;

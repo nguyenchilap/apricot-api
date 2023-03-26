@@ -13,4 +13,6 @@ async function connect(){
     }
 }
 
+mongoose.set('strictQuery', true);
+
 export default {connect};
